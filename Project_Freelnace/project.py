@@ -6,10 +6,10 @@ from sharepoint import download_file_sharepoint
 import pandas as pd
 
 # set file name
-file_name = 'test_sharepoint.xlsx'
+file_name = '<file_name>'
 
 # set the folder name
-folder_name = 'test-folder'
+folder_name = '<folder_name>'
 
 #set file type
 file_type = ''
