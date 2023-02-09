@@ -1,0 +1,6 @@
+Config.json : Contains all the credentails to login to sharepoint 
+
+Sharepoiny.py : Contain download_from_sharepoint function which take 2 arg folder_name and file_name to download file from sharepoint 
+
+Project.py : Main file where we call Sharepoint.py to download file and then we load that file into pyspark dataframe and then onto hive table . 
+Note: We append the data every time script is executed . 
